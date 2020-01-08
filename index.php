@@ -28,7 +28,15 @@ echo "<br>";
 echo "Array Unique: ";
 echo "<br>";
 echo printArr(removeDups($numbers));
+echo "<br>";
 
+$distribution = distribution($numbers);
+ksort($distribution);
+echo "Distribution: <br>";
+foreach ($distribution as $key => $value) {
+    echo "Key: $key; Value: $value\n";
+    echo "<br>";
+}
 
 ?>
 
