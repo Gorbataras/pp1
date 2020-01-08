@@ -24,6 +24,10 @@ $numbers = array(7, 9, 8, 9, 8, 8, 6);
 printArr($numbers);
 echo "<br>";
 echo "Largest ". largest($numbers);
+echo "<br>";
+echo "Array Unique: ";
+echo "<br>";
+echo printArr(removeDups($numbers));
 
 
 ?>

@@ -15,3 +15,8 @@ function largest($arr) {
     }
     return $largest;
 }
+
+function removeDups($arr) {
+    $arr = array_unique($arr);
+    return $arr;
+}
